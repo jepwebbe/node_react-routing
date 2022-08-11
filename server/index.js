@@ -34,7 +34,7 @@ app.use(express.static(path.resolve(__dirname, '../client/build')));
 
 // Handle GET requests to /api route
 app.get("/api", (req, res) => {
-  res.json({ message: "Hello from server!" });
+  res.json({ message: "Jeg er en besked, der har rejst fra serveren. Her kunne f.eks. data fra MongoDB rejse i stedet for." });
 });
 
 // All other GET requests not handled before will return our React app

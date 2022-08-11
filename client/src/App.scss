@@ -1,0 +1,23 @@
+$background: linear-gradient(
+  135deg,
+  hsl(10deg 100% 20%) 0%,
+  hsl(29deg 100% 33%) 18%,
+  hsl(42deg 100% 43%) 26%,
+  hsl(55deg 100% 50%) 33%,
+  hsl(69deg 100% 48%) 39%,
+  hsl(88deg 96% 54%) 44%,
+  hsl(137deg 100% 50%) 50%,
+  hsl(183deg 100% 44%) 56%,
+  hsl(204deg 100% 50%) 61%,
+  hsl(239deg 100% 50%) 67%,
+  hsl(275deg 100% 49%) 74%,
+  hsl(290deg 100% 48%) 82%,
+  hsl(303deg 100% 50%) 100%
+);
+
+body {
+  width: calc(100% - 8rem);
+  height: 100vh;
+  padding: 0 4rem;
+  background-image: $background;
+}

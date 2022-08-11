@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import "./App.css";
+import "./App.scss";
 import Hjem from "./pages/Hjem";
 import Kontakt from "./pages/Kontakt";
 import Omos from "./pages/Omos";
