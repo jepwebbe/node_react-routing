@@ -1,0 +1,16 @@
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 20rem;
+    list-style: none;
+    .active {
+        font-weight: bold;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        }
+        a:hover {
+            color: blue;
+    }
+}
